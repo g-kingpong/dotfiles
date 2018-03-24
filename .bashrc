@@ -241,6 +241,6 @@ if [ -f ~/.bashrc_local ]; then
 fi
 
 #格言
-#/usr/bin/fortune
-
-
+if [ -f /usr/bin/fortune ]; then
+  /usr/bin/fortune
+fi
